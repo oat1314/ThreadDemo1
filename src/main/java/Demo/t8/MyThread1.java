@@ -1,5 +1,7 @@
 package Demo.t8;
 
+import SafeDemo.t7.Task;
+
 /**
  * @program: ThreadDemo1
  * @author: ouguoxin
@@ -7,6 +9,8 @@ package Demo.t8;
  **/
 
 public class MyThread1 extends Thread{
+
+
     @Override
     public void run() {
         try {
